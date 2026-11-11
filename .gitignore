@@ -1,0 +1,23 @@
+# Visual Studio / C++
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.tlog
+*.obj
+*.ipch
+*.aps
+*.pdb
+*.ilk
+
+# build output: we ship .aex, not the intermediates
+# (the plugin itself IS committed for convenience)
+
+# SDK is vendored separately; see README
+SDK/
+
+# OS
+Thumbs.db
+.DS_Store
